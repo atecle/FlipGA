@@ -15,8 +15,11 @@ public class FlipGA {
 			System.err.println("File " + args[0] + " not found.");
 			System.exit(1);
 		}
-		
+
 		Expression exp = new Expression(file);
+
+		
+	
 
 	}
 

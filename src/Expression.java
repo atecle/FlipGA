@@ -57,7 +57,7 @@ public class Expression {
 		int l1 = sc.nextInt();
 		int l2 = sc.nextInt();
 		Clause c = new Clause(l0, l1, l2);
-		System.out.println(l0 + " " + l1 + " " + l2);
+		
 		return c;
 	}
 }
