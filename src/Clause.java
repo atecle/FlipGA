@@ -10,8 +10,10 @@ public class Clause {
 	//the variable ID number of clause[i] is literals[i]
 	public int[] clause = new int[3];
 
-	//indices in input file are 1-based. must subtract
+	
 	public Clause(int l0, int l1, int l2) {
+		
+		//indices in input file are 1-based. 
 		literals[0] = Math.abs(l0) - 1;		
 		literals[1] = Math.abs(l1) - 1;
 		literals[2] = Math.abs(l2) - 1;
