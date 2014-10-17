@@ -17,8 +17,9 @@ public class FlipGA {
 		}
 
 		Expression exp = new Expression(file);
-
+		Population pop = new Population(exp.numVars());
 		
+	
 	
 
 	}

@@ -10,15 +10,20 @@ public class Expression {
 	private static int num_clauses;
 	private static int num_vars;
 	private static Scanner sc = null;
-	/**
-	 * 
-	 * @param x is number of clauses
-	 * @param y is number of variables
-	 * Instantiates Expression object represented by array of clause objects
-	 */
+
+	
 	public Expression(File file) {
 		formula = getFormula(file);
 	}
+	
+	public int numVars() {
+		return num_vars;
+	}
+	
+	public int numClauses() {
+		return num_clauses;
+	}
+	
 	
 	private static Clause[] getFormula(File file) {
 		
